@@ -59,30 +59,9 @@ export const UserList = (props) => {
 											<div><i className="fa-solid fa-envelope"></i><a href={'mailto:'+ user.email}>{user.email}</a></div>
 										</div>
 
-	
-
 										<a className="close" onClick={close}>
 											<i className="fa-solid fa-circle-xmark"></i>
 										</a>
-										
-
-											
-											
-											
-											
-											
-									
-										
-											
-								
-											
-											
-
-											
-										
-										
-										
-
 									
 									</div>
 									)}
