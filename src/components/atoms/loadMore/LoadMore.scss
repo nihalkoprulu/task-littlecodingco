@@ -1,4 +1,4 @@
-@import 'assets/styles/colors.scss';
+@import "assets/styles/colors.scss";
 
 .LoadMore {
   background-color: transparent;
@@ -13,6 +13,6 @@
     text-decoration: underline;
   }
   &:focus {
-		outline: 0;
-	}
+    outline: 0;
+  }
 }

@@ -1,5 +1,5 @@
-import './LoadingIndicator.scss'
+import "./LoadingIndicator.scss";
 
 export const LoadingIndicator = (props) => (
-    <div className="LoadingIndicator">Loading...</div>
-)
+  <div className="LoadingIndicator">Loading...</div>
+);

@@ -1,19 +1,21 @@
-@import 'assets/styles/colors.scss';
-@import 'assets/styles/mixins.scss';
+@import "assets/styles/colors.scss";
+@import "assets/styles/mixins.scss";
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 2rem;
 
-  @include breakpoint-down-xs{
+  @include breakpoint-down-xs {
     padding: 0.5rem;
-  } 
+  }
 }
 
-*, *::before, *::after {
-	box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 h1 {

@@ -1,5 +1,5 @@
-import './SearchInput.scss'
+import "./SearchInput.scss";
 
 export const SearchInput = (props) => (
-    <input className="SearchInput" type="text" {...props}></input>
-)
+  <input className="SearchInput" type="text" {...props}></input>
+);

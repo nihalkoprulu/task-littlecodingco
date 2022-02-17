@@ -1,13 +1,13 @@
-@import 'assets/styles/colors.scss';
+@import "assets/styles/colors.scss";
 
 .SearchInput {
-    width: 100%;
-    border-right: none;
-    font-size: 14px;
-    line-height: 17px;
-    padding: 10px 19px;
-    outline: none;
-    color: #000;
-    background-color: $light-grey;
-    border:none;
+  width: 100%;
+  border-right: none;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 10px 19px;
+  outline: none;
+  color: #000;
+  background-color: $light-grey;
+  border: none;
 }

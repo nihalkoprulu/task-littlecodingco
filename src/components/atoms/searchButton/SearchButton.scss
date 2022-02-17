@@ -1,4 +1,4 @@
-@import 'assets/styles/colors.scss';
+@import "assets/styles/colors.scss";
 
 .SearchButton {
   background: $light-grey;
@@ -8,8 +8,7 @@
   border: none;
   padding-right: 1.125rem;
 
-
   &:focus {
-		outline: 0;
-	}
+    outline: 0;
+  }
 }
