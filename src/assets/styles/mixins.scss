@@ -1,0 +1,13 @@
+//Media Queries
+
+@mixin breakpoint-down-xs{
+    @media only screen and (max-width : 320px){
+        @content;
+    }
+}
+
+@mixin breakpoint-down-md{
+    @media only screen and (max-width : 768px){
+        @content;
+    }
+}
